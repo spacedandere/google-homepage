@@ -1,10 +1,64 @@
-body {
-	width: 600px;
-	margin: 0 auto;
-	padding: 0 20px 20px 20px;
+div.container {
+	
 }
 
-img {
-	display: block;
-	margin: 0 auto;
+div.nav {
+	vertical-align: top;
+	text-align: top;
+	margin: 10px;
+	padding: 25px;
+	
+}
+
+div.navLeft {
+	position: relative;
+	left: 20px;
+}
+
+a{
+	color: #000000;
+	opacity: .75;
+	text-decoration: none;
+	font-family: "Open Sans";
+	font-size: 14px;
+	padding: 5px;
+}
+
+div.navRight {
+	position: relative;
+	left: 1150px;
+	
+}
+
+div.content {
+	vertical-align: middle;
+	position: fixed;
+	left: 550px;
+	top: 200px;
+}
+
+div.logo {
+	
+}
+
+div.search {
+	
+}
+
+div.footer {
+	width: 1340px;
+	vertical-align: bottom;
+	position: fixed;
+	top: 560px;
+	background-color: #DDD;
+}
+
+div.footerLeft {
+	position: relative;
+	left: 20px;
+}
+
+div.footerRight {
+	position: relative;
+	left: 1150px;
 }
